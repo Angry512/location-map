@@ -43,12 +43,12 @@ The backend tests need the bundled runtime's dependencies. After the first check
 
 The portable starter test requires Windows, a complete `Support/Runtime.zip`, free disk space, and normal temporary-folder access. It uses its own copy and cache; it never opens a phone.
 
-The application source and its own tests are in `Support/Phone/Location-Map-source.zip`. Extract that archive separately before running its tests. The website is buildless HTML/CSS/JavaScript. Serve the repository with `python -m http.server 8091`, then check the guide tabs, keyboard controls, FAQ, download links and mobile layout in a browser.
+The application source and its own tests are in `Support/Phone/Location-Map-source.zip`. Extract that archive separately before running its tests. The README is the recipient guide; no separate website is required.
 
 ## Publication
 
-Upload the recipient ZIP, standalone runtime and checksum file to the exact release tag linked in `README.md` and `index.html`. Keep preview releases marked **Pre-release** while the [hardware checklist](Support/Docs/Release-checklist.md) remains open. GitHub's automatically generated source ZIP is not the ready-to-run installer.
+Upload the recipient ZIP, standalone runtime and checksum file to the exact release tag linked in `README.md`. Keep preview releases marked **Pre-release** while the [hardware checklist](Support/Docs/Release-checklist.md) remains open. GitHub's automatically generated source ZIP is not the ready-to-run installer.
 
-GitHub Pages serves the `main` branch at `/` with `.nojekyll`. The guide has no analytics, third-party scripts or account sign-in.
+Review the rendered README on GitHub and follow its download, extraction and starter steps. Check the downloaded ZIP against the release checksums and run its actual `START HERE.cmd -Check` entry point without a phone. Keep hardware results separate from simulated-device tests.
 
 See [computer evidence](Support/Docs/COMPUTER%20CHECKS.txt) for what passed. Passing simulated-device and desktop checks does not establish a complete fresh-iPhone install, unplugged cellular operation or compatibility with future iOS updates.
