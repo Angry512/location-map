@@ -8,6 +8,8 @@ Download `Runtime.zip` from the [preview release](https://github.com/Angry512/lo
 
 The source archive from GitHub deliberately omits that large release asset. **START HERE.cmd requires it.**
 
+The public runtime omits unused pip command wrappers from `Lib/site-packages/bin/*.exe`, which embedded a build-machine interpreter path. Setup invokes the portable `python.exe` directly. All library files and notices are unchanged. `tools/prepare_runtime.py` documents and verifies that transformation for a future runtime rebuild; do not run it against an already approved release without rerunning the Windows checks and rebuilding the checksums.
+
 ## Build the recipient download
 
 With Python 3.11 or newer available on a development computer, run from the repository root:
