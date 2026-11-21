@@ -1,0 +1,44 @@
+LOCATION MAP - START HERE
+
+You need a Windows computer, internet, an iPhone, and its USB cable.
+
+1. Right-click Location-Map-Windows.zip > Extract All > Extract.
+2. Open the Location Map folder. Plug in ONE iPhone and unlock it.
+3. Double-click START HERE.cmd and follow the setup window. It waits for you.
+
+If someone gave you this folder on a USB, start at step 2.
+
+Keep the iPhone unlocked and connected until setup says it has finished.
+If the phone locks, unlock it. Never type your passcode into the computer.
+
+WHEN SETUP ASKS YOU TO DO SOMETHING
+
+Trust: Tap Trust and enter the iPhone passcode on the phone.
+
+Developer Mode: Settings > Privacy & Security > Developer Mode > turn on.
+Tap Restart. Afterwards, unlock the phone and tap Turn On.
+
+Free apps: Scan the two codes shown in setup, then tap Get.
+Download a-Shell (not mini) and LocalDevVPN. Approve Face ID if asked.
+
+VPN: Open LocalDevVPN > Connect > Allow. Enter the phone passcode if asked.
+
+Home Screen: Setup shows how to add the Location Map icon.
+Keep the two helpers installed. Hide each helper icon with:
+hold icon > Remove App > Remove from Home Screen. Do NOT tap Delete App.
+
+AFTER SETUP
+Open Location Map. Tap a place, then Simulate. Tap Stop to finish.
+The shortcut connects the local VPN for you. Away from Wi-Fi, let its brief
+cellular pause finish. Do not cancel the launch during that pause.
+
+IF SOMETHING STOPS
+Unlock and reconnect the same phone, then use Retry or reopen START HERE.
+If Windows cannot see the phone, use the Apple Devices button in setup.
+Leave the Support folder in place; it contains the installer files.
+
+This setup preview supports x64 Windows and iOS 26.4 through iOS 27.x.
+It uses App Store apps, so there is no weekly sideload signing renewal.
+Future iOS or helper-app changes may require an update to Location Map.
+The new setup window has computer checks; it has not been fully tested on
+a fresh phone. A successful setup check does not prove Simulate and Stop.
