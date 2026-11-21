@@ -1,0 +1,42 @@
+LOCATION MAP - COMPUTER CHECKS, 21 NOVEMBER 2026
+
+Passed:
+- 80 tests run from the exact packaged application source archive.
+- 29 guided-installer tests: full prerequisite/transfer/receipt/Home Screen
+  flow with an in-memory phone, same-phone selection, restart ordering,
+  actual staged-file retry, current receipt, hidden-but-installed helpers,
+  icon/widget preservation, storage errors, bounded cleanup and cancellation.
+- One loopback test uses the real HouseArrest/AFC clients against a simulated
+  device endpoint, including a cable-style interruption and resumed transfer.
+- 10 real Windows starter checks from a separate copy in a folder containing
+  spaces and an ampersand, with a fresh local profile and conflicting Python
+  settings. Tests also cover cache reuse/repair, unexpected cached files,
+  missing Support, damaged runtime/launcher, missing app archive, failed
+  worker startup and cancellation of the owned worker.
+- Windows PowerShell 5.1 self-test: all nine setup screens populate, runtime
+  extraction works, and the bundled backend passes its offline check.
+- Windows native-library path lengths were corrected and the fresh-profile
+  starter check passed after the correction.
+- Offline checks use the actual START HERE.cmd entry point.
+- Apple signing chain verified and all 13 launcher actions match the source.
+- App payload and signed launcher match their pinned SHA-256 hashes.
+- All nine screen states render. Normal and small-window layouts were
+  inspected, including readable instructions and complete app QR codes.
+- The original native green progress bar is restored. Footer badges and
+  repeated status text are removed; the dark cyan/violet theme is local code.
+- No phone pairing, location, account or owner-specific device ID is packaged.
+- Before GitHub publication, the 80 application tests, 29 guided-installer
+  tests and the real AFC loopback test were rerun successfully. The public
+  runtime omits 28 unused pip command wrappers that embedded build-machine
+  paths. All 11,153 retained runtime files were checked byte for byte, and
+  the real Windows starter/recovery checks were rerun on the public runtime.
+- The release builder reads back every file in the complete download and
+  compares it with its source. SHA256SUMS.txt identifies the release assets.
+
+These checks did not contact an iPhone. The previous phone tests are described
+in ABOUT THIS KIT.txt. No complete new-phone hardware test is claimed here.
+
+Support/Manifest.json lists the SHA-256 and size of every distributed file
+except the manifest itself. It verifies a complete extracted download or USB
+copy. The repository source tree omits Runtime.zip; use the Windows release
+download for installation.

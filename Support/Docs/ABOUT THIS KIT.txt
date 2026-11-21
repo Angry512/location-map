@@ -1,0 +1,57 @@
+LOCATION MAP WINDOWS SETUP PREVIEW - 21 NOVEMBER 2026
+
+This kit contains the verified Location Map source payload and Apple-signed
+portable Shortcut, a guided Windows setup window, the pinned Windows runtime,
+and local App Store QR codes. No owner's phone pairing, account, location,
+screenshots, passwords, or saved VPN profile is included.
+
+What setup automates
+- Unpacks its own runtime into a versioned per-user Windows cache.
+- Checks the app and signed-launcher hashes before opening a phone connection.
+- Waits for one USB phone, Trust, the restart for Developer Mode, and helpers.
+- Downloads and checks the pinned developer image automatically.
+- Transfers and checks the app files, preserving unrelated a-Shell files.
+- Creates fresh pairing for the recipient phone, without exporting those keys.
+- Waits for the on-phone first-launch receipt instead of assuming success.
+- Places the confirmed Location Map icon on the first Home Screen page.
+- Checks that the two helpers remain installed after their icons are removed.
+
+What still needs the phone owner
+Apple's free App Store downloads, phone passcode/Trust, Developer Mode restart,
+VPN approval, Shortcuts import/access approvals, and Remove from Home Screen.
+The Windows wizard guides these steps. It does not capture account credentials,
+silently approve dialogs, use fragile screen coordinates, or delete apps.
+
+Windows needs Apple's USB drivers (Apple Devices or a compatible existing
+Apple Mobile Device installation). An Apple Devices link is included in setup.
+Internet is needed for the App Store and the developer image/personalization.
+Apple developer-image files are fetched during setup, not redistributed here.
+
+The Python runtime is kept under LOCALAPPDATA\LocationMap\Runtime, not on the
+phone. It is only used during installation. Its cache contains kit code, not
+the phone's RemotePairing keys. The USB can be removed after setup is finished.
+
+Limits of the evidence
+Earlier map builds were exercised on an iPhone 15 Pro. On 7 November, the exact
+signed launcher imported on a different iPhone running iOS 26.6.2; its native
+map opened and its Home Screen icon was added. That session ended before final
+Simulate/Stop and helper-icon cleanup. This newly guided installer has not had
+a complete fresh-phone test. Do not describe it as guaranteed, universally
+compatible, or permanently immune to Apple/helper-app updates.
+
+The normal guided setup never sends a location Simulate or Stop command.
+After installation, the recipient should check both in a location display.
+
+Source and notices
+Phone/Location-Map-source.zip contains the application source and its notices.
+Sources contains the launcher/build/verification source. The runtime archive
+contains Python LICENSE.txt and library distribution metadata/license files.
+Licenses/Location-Map-GPL-3.0.txt contains the project's license.
+
+Release-checklist.md lists the remaining hardware checks for this guided kit.
+The entry point is START HERE.cmd, from a fully extracted Windows download.
+
+Official download/help pages
+https://apps.apple.com/us/app/a-shell/id1473805438
+https://apps.apple.com/us/app/localdevvpn/id6755608044
+https://support.apple.com/guide/devices-windows/welcome/windows
