@@ -1,0 +1,121 @@
+{
+  "format": 1,
+  "files": {
+    "READ ME.txt": {
+      "sha256": "b89ce4f2464401dd3fc528ad2e32aa725c1ae1351f895562ec86ff879e4c4ca1",
+      "size": 2016
+    },
+    "START HERE.cmd": {
+      "sha256": "c85a38ff6deda9d17a71306315801194d406694e9728b7dd7078d197f82d62c0",
+      "size": 899
+    },
+    "Support/Docs/ABOUT THIS KIT.txt": {
+      "sha256": "d89e553f37fb89f6b530cfcfbdc98b4d4a976da1de76039eef4d4a7ac4b7e5ca",
+      "size": 3225
+    },
+    "Support/Docs/COMPUTER CHECKS.txt": {
+      "sha256": "5118950b3eb9215f6592eaf0b08d113c3781fd4d3a90aa916fdf85dfc5ccee51",
+      "size": 2721
+    },
+    "Support/Docs/Release-checklist.md": {
+      "sha256": "98d50a8c3e658eeaf9d474f41e8d2cfaa95a5ca4282316c59fa915ff1f1777f5",
+      "size": 3817
+    },
+    "Support/Images/a-shell.png": {
+      "sha256": "7633fa67a878f4a4c2ba1ead4916081e56622dff08bff29b715ddaddcf969445",
+      "size": 1754
+    },
+    "Support/Images/localdevvpn.png": {
+      "sha256": "db7fcaf7bc3f90805acf8a9bb1c4bae54bcb850d10bfb712a46303bce9a658b0",
+      "size": 1766
+    },
+    "Support/Installer/cryptex_assets.py": {
+      "sha256": "9236d77b9f30818450cee85f1a71db9f1e59b16875c10651f793975cb7ad9979",
+      "size": 2114
+    },
+    "Support/Installer/editor_launcher.py": {
+      "sha256": "ad9db3a70af51fb4d1ed7fb2a4ec5965bc8e06dde256aa4cf50b19e6831a8807",
+      "size": 4371
+    },
+    "Support/Installer/setup_phone.py": {
+      "sha256": "bd5b106d3ee5c9319655ebad6a175e203a91e13362eb5a15747fddcc0b5bf3a8",
+      "size": 23453
+    },
+    "Support/Installer/usb_pairing.py": {
+      "sha256": "ff6d84c74b4892958cd53299c16536123ca08e23382d9b340397f17fcb862bcf",
+      "size": 6536
+    },
+    "Support/Installer/wizard_backend.py": {
+      "sha256": "a13e6c2be5bd3a8c850e7e672c2197396288a1a245883f25e91f9d4b87cac4ea",
+      "size": 26844
+    },
+    "Support/Licenses/Location-Map-GPL-3.0.txt": {
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "size": 35147
+    },
+    "Support/Phone/Location Map.shortcut": {
+      "sha256": "6baf4f0b183b7a1f9a491255cffbab1d96e67fcd02792e7f213f127768b21676",
+      "size": 22789
+    },
+    "Support/Phone/Location-Map-source.zip": {
+      "sha256": "b90bf6141a44e8b4d02ee9f2ac65fd4048f9427ed9639e3146392ed9c1ab9fe5",
+      "size": 1628263
+    },
+    "Support/Runtime.manifest.json": {
+      "sha256": "a9951a323891ed7e4edd487a4a5c6bc1c29cdc3406307495fc99f66726077737",
+      "size": 1784604
+    },
+    "Support/Runtime.zip": {
+      "sha256": "ff9248fd52a705f8ff568212f9de4797530202da0703301d54b8a9cb66b9e052",
+      "size": 86186938
+    },
+    "Support/Setup.ps1": {
+      "sha256": "cd6d529d1e2177a2811a93b119198e15e436a0846d8da5be07d03cadc73f4a2c",
+      "size": 49322
+    },
+    "Support/Sources/LAUNCHER.md": {
+      "sha256": "75c98f2efb392af0af6fcdf61b720bc03983ee832c3420964dbd6b930c0f2d51",
+      "size": 1001
+    },
+    "Support/Sources/Location Map.unsigned.plist": {
+      "sha256": "f39c5d39ef093b948f775d58e618efb34265f8f7dc134d9d944f2592cea20656",
+      "size": 7246
+    },
+    "Support/Sources/build_launcher.py": {
+      "sha256": "7c34e11419e8aa8b47b36f9e00ddc5b11a4f7ac1a26e3a9afcd92a52322c7032",
+      "size": 4029
+    },
+    "Support/Sources/build_payload.py": {
+      "sha256": "7350554c35f82ce01d85e6c95f84f9d08cbde5792911e86b14c6abe413b1f390",
+      "size": 2196
+    },
+    "Support/Sources/core.py": {
+      "sha256": "cad2e41552bba210c8a93bdf21a1c4067036a9aac87f029e54ca2dccfdac0a76",
+      "size": 19642
+    },
+    "Support/Sources/launch_proof.py": {
+      "sha256": "7302c14712c735cf70d663ce4dd6c0d6cba212a8714f55673af3e1ce712125a9",
+      "size": 2691
+    },
+    "Support/Sources/phone_location.py": {
+      "sha256": "fa292dad49502b9de8384430ad726bd3d3b5bbfaf6acf57e59bbbbd1d6099c92",
+      "size": 8256
+    },
+    "Support/Sources/tests_end_to_end.py": {
+      "sha256": "c535c18bc29efbd9bc74c7901c6db2efb244d19baa44dd42967de7b1be6c4839",
+      "size": 15370
+    },
+    "Support/Sources/transport.py": {
+      "sha256": "366fc788482fcabc2289919f4dea01f0b9e3f4435886b40b91362c03855700cf",
+      "size": 7398
+    },
+    "Support/Sources/verify_signed_launcher.py": {
+      "sha256": "d7f38c96781215056b4c2481ef1474d2d9aeec0039fe802c9336d0b46ca5a4ec",
+      "size": 10014
+    },
+    "Support/runtime.sha256": {
+      "sha256": "8f251e36b92c1d22b0f2bfbad13ff2ea5d7b3973ce0d77738612c2103a5b8d0e",
+      "size": 66
+    }
+  }
+}
